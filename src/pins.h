@@ -7,14 +7,16 @@
 #define LCD_RST 2
 
 // Encoder
-
+#define ENC_A 32
+#define ENC_B 33
 
 // RGB LED
 #define RGB 13
 #define NUM_LEDS 3
 
 // Button
-
+#define ENC_BTTN 26
+#define RST_BTTN 25
 
 // DHT 11
 

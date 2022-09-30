@@ -1,0 +1,214 @@
+{
+  "version": "1.00",
+  "projectName": "HomeThing IoT Controller Thingy",
+  "author": "Sai",
+  "items": [
+    {
+      "parentId": 0,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Spotify",
+        "variableName": "Spotify",
+        "id": 1,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    },
+    {
+      "parentId": 1,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Playlists",
+        "variableName": "SpotifyPlaylists",
+        "id": 8,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    },
+    {
+      "parentId": 1,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Player",
+        "variableName": "SpotifyPlayer",
+        "id": 10,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    },
+    {
+      "parentId": 10,
+      "type": "boolItem",
+      "item": {
+        "naming": "YES_NO",
+        "name": "Playing",
+        "variableName": "SpotifyPlayerPlaying",
+        "id": 11,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    },
+    {
+      "parentId": 10,
+      "type": "actionMenu",
+      "item": {
+        "name": "Playing Device",
+        "variableName": "SpotifyPlayerPlayingDevice",
+        "id": 12,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    },
+    {
+      "parentId": 0,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Lights",
+        "variableName": "Lights",
+        "id": 2,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    },
+    {
+      "parentId": 2,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Centre Lights",
+        "variableName": "LightsCentreLights",
+        "id": 4,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    },
+    {
+      "parentId": 2,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Curtain Lights",
+        "variableName": "LightsCurtainLights",
+        "id": 5,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    },
+    {
+      "parentId": 2,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Floor Lights",
+        "variableName": "LightsFloorLights",
+        "id": 6,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    },
+    {
+      "parentId": 2,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Mirror Lights",
+        "variableName": "LightsMirrorLights",
+        "id": 7,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    },
+    {
+      "parentId": 0,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "AC",
+        "variableName": "AC",
+        "id": 9,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    },
+    {
+      "parentId": 9,
+      "type": "boolItem",
+      "item": {
+        "naming": "ON_OFF",
+        "name": "Power",
+        "variableName": "ACPower",
+        "id": 14,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    },
+    {
+      "parentId": 0,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "VIA",
+        "variableName": "VIA",
+        "id": 13,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true
+      }
+    }
+  ],
+  "codeOptions": {
+    "embeddedPlatform": "ARDUINO_ESP32",
+    "lastDisplayUuid": "",
+    "lastInputUuid": "",
+    "lastRemoteUuid": "",
+    "lastRemoteUuids": [
+      ""
+    ],
+    "lastThemeUuid": "",
+    "applicationUUID": "f874afa2-6aa9-42b5-b6b4-7e4bd060e9b3",
+    "applicationName": "HomeThing",
+    "lastProperties": [],
+    "namingRecursive": true,
+    "saveToSrc": true,
+    "useCppMain": true,
+    "eepromDefinition": "eeprom:",
+    "authenticatorDefinition": "",
+    "projectIoExpanders": [
+      "deviceIO:"
+    ],
+    "menuInMenuCollection": {
+      "menuDefinitions": []
+    },
+    "packageNamespace": "",
+    "appIsModular": false
+  }
+}
